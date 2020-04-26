@@ -1,0 +1,125 @@
+body{
+    font-family: tahoma, arial, sans-serif; /**/
+    margin: 0px; /*zerando a margin que já vem por padrão com valor*/
+    padding: 0px; /*zerando o pading pelo mesmo motivo*/
+}
+
+#principal{
+    width: 1024px; /*falando o espaço que ira ocupar no navegador*/
+    margin: 20px auto; /*centralizando a minha imagem*/
+}
+
+.header-top{
+    height: 60px; /*definindo a altura do meu menu*/
+    background: #162028; /**/
+    position: relative;
+}
+.logotipo{
+    margin: 20px 0 0 135px; /*espaçamento da minha imagem*/
+}
+.header-nav{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none; /* tirando o efeito da lista */
+    display: inline-block; /* coloando a lista em linha e dividida em bolocos */
+    margin-right: 15px;
+    padding: 10px;
+}
+.header-nav a{
+    color: #425564; /* tirando a cor azul do link*/
+    text-decoration: none; /* tirando a decoração no link*/
+    text-transform: uppercase; /*colocando tudo em maiusculo*/
+    font-size: 12px; /* tamanho da fonte*/
+    letter-spacing: 1px; /*espaçamento das letras*/
+    transition: color .3s linear; /* transição para quando eu passar o mouse em cima do link */
+}
+
+.header-nav a:hover{ /* efeito para quando passar o mouse em cima do meu link */
+    color: white;
+}
+
+
+.portfolio{
+    padding: 50px 100px 100px 0;
+    text-align: center;  
+}
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portfolio p {
+    font-size: 16px;
+    line-height: 2; /* margin top e bootom para o meu texto */
+    
+}
+.galerry{
+    color: #555;
+    padding: 0 100px 50px 100px;
+}
+.galerry-card{
+    width: 32%; /* deixando meus cards com 32% do tamanho */
+    float: left; /*  */
+    text-align: center;
+    
+
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold; /* efeito para o texto */
+    
+}
+.about{
+    overflow: auto;
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(..//imagens/bg_detalhe.png);
+    background-repeat: no-repeat; /* para a imagem não se repetir */
+    background-position: right bottom; /* centralizando a imagem */
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font width: normal; /* tirando o negrito / efeito*/
+}
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.rodape{
+    margin-top: 50px;
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8907;
+    letter-spacing: 5px;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+				Anotações
+
+
+
+*ID = identificação, somente um por pagina
+
+
+
+
+
+
+
+paddin = movimentação interna 
+
+width = largura
+
+height = altura
